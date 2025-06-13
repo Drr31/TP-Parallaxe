@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+header ul li{
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+	float: right;
+	margin-left: -15px;
+	margin-right: 45px;
+	font-size: 25px;
+	margin-top: -5px;
+	font-family: arial;
+}
+
+h1{
+	padding: 0;
+	margin-left: 30px;
+	margin-top: 5px;
+	position: absolute;
+	font-family: ZCOOL QingKe HuangYou;
+}
+
+h2{
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 30px;
+	font-family: Quicksand;
+}
+
+p{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 17px;
+	font-family: Quicksand;
+}
+
+#menu{
+	position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat ;
+	background-color: black;
+	height:45px;
+	width:100%;
+	z-index:1;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+
+#z1{
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	background: url("../images/plage.jpg") center 0 no-repeat fixed;
+	background-size: cover;
+	background-position:center;
+	color: white;
+}
+
+#sc1{
+	height: 670px;
+	width: 470px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#z2{
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	background: url("../images/waterfall.jpg") center 0 no-repeat fixed;
+	background-size: cover;
+	background-position:center;
+	color: white;
+}
+
+#sc2{
+	height: 290px;
+	width: 1295px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 150px;
+	float: left;
+	margin-left: 70px;
+
+}
+
+#z3{
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	background: url("../images/sea.jpg") center 0 no-repeat fixed;
+	background-size: cover;
+	background-position:center;
+	color: white;
+}
+
+#sc3{
+	height: 660px;
+	width: 468px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#z4{
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	background: url("../images/sf.jpg") center 0 no-repeat fixed;
+	background-size: cover;
+	background-position:center;
+	color: white;
+}
+
+#sc4{
+	height: 660px;
+	width: 469px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
